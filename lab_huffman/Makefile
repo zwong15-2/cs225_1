@@ -5,9 +5,9 @@ EXE_VIEWTREE = view_tree
 
 TEST = test
 
-TERM = sp2019
+TERM = sp2020
 
-all: $(EXE_DECODER) $(EXE_ENCODER) $(EXE_PRINTER) $(EXE_VIEWTREE)
+all: output_msg $(EXE_DECODER) $(EXE_ENCODER) $(EXE_PRINTER) $(EXE_VIEWTREE)
 
 OBJS = huffman_tree.o frequency.o encoder.o decoder.o binary_file_writer.o binary_file_reader.o
 
